@@ -9,7 +9,11 @@ MATRYOSHKA AUTO-REVIEW - GitHub Actions Script
 import os
 import sys
 import json
-from github import Github
+
+# Добавляем корень репозитория в Python path
+repo_root = os.path.join(os.getenv('GITHUB_WORKSPACE', '.'))
+sys.path.insert(0, repo_root)
+
 from github_client import GitHubClient
 from ai_reviewer import AIReviewer
 from file_filter import FileFilter
