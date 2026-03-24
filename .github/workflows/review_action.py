@@ -9,7 +9,6 @@ MATRYOSHKA AUTO-REVIEW - GitHub Actions Script
 import os
 import sys
 import json
-from github import Github
 from github_client import GitHubClient
 from ai_reviewer import AIReviewer
 from file_filter import FileFilter
