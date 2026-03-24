@@ -347,3 +347,4 @@ MIT
 
 **MATRYOSHKA OS ┬й 2026**
 **ЁЯдЦ Auto-Review v1.0**
+-e "\n\n## ФИНАЛЬНЫЙ ТЕСТ\n\nДобавлено для проверки workflow"  
